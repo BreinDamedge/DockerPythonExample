@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans&family=Roboto&display=swap");
+.Masthead h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.Header {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.Header-link {
+  font-size: 24px !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+}
+
+.Header-link[aria-current]:not([aria-current=false]) {
+  color: white;
+}
+
+.CircleBadge {
+  height: 200px !important;
+  width: 200px !important;
+  border: 5px solid white !important;
+}
+
+.Toolbar {
+  background-color: var(--color-header-bg);
+}
+
+@media (min-width: 1012px) {
+  .Toolbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
